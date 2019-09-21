@@ -3,3 +3,10 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+
+board = 
+puts "welcome
+user_input = gets.chomp
+index = input_to_index(user_input)
+move(board, index)
+display_board(board)
